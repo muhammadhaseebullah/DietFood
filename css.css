@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	scroll-behavior:smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	overflow-x:hidden;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+
+.my-navbar{
+    box-shadow: 0px 1px 5px grey;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.my-navbar-brand{
+	color: #e11b22;
+	font-weight: bolder;
+	padding-left: 3vw;
+}
+
+.my-navbar-links{
+	background-color:none;
+	padding: 8px 15px 10px 15px;
+	transition: ease .6s;
+	width: 120px;
+}
+
+.my-navbar-links:hover{
+	background-color:#e11b22;
+	padding: 8px 15px 10px 15px;
+	border-radius: 20px;
+	color: white;
+	width: 120px;
+
+}
+
+
+
+@media screen and (max-width:768px){
+	.my-navbar-links{
+	background-color:none;
+	padding: 8px 15px 10px 15px;
+	transition: ease .6s;
+	width: 120px;
+		display: none;
+}
+
+.my-navbar-links:hover{
+	background-color:#e11b22;
+	padding: 8px 15px 10px 15px;
+	border-radius: 20px;
+	color: white;
+	width: 120px;
+	
+}
+	
+}
+
+.my-navbar-icon{
+	color: #e11b22;
+	padding-right: 3vw;
+}
+
+.my-carousel{
+	margin-top: 2px;
+	margin-bottom: 120px;
+}
+.my-image-rotate{
+	transform: rotate(180deg);
+}
+
+.my-caption{
+	height: 550px;
+	
+    
+}
+.my-caption h1{
+	color: #e11b22;
+	font-weight: bolder;
+	margin-top: 13rem;
+}
+
+@media screen and (min-width:817px) and (max-width:957px){
+.my-caption h1{
+	color: #e11b22;
+	font-weight: bolder;
+	margin-top: 15rem;
+}	
+}
+@media screen and (min-width:768px) and (max-width:817px){
+.my-caption h1{
+	color: #e11b22;
+	font-weight: bolder;
+	margin-top: 16.5rem;
+}	
+}
+.my-caption p{
+	color: #e11b22;
+	
+}
+.my-caption button{
+	color: #e11b22;
+	font-weight: bold;
+	padding: 5px;
+	border: solid #e11b22 3px;
+	border-radius: 20px;
+	transition: ease .3s;
+	width: 120px;
+}
+.my-caption button:hover{
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border: solid #e11b22 3px;
+	background-color:#e11b22; 
+	border-radius: 20px;
+}
+
+@media screen and (max-width:768px){
+.my-caption h1{
+	color: #e11b22;
+	font-weight: bolder;
+	margin-top: 17rem;
+	display: none;
+}
+	.my-caption p{
+	color: #e11b22;
+	display: none;
+}
+.my-caption button{
+	color: #e11b22;
+	font-weight: bold;
+	padding: 5px;
+	border: solid #e11b22 3px;
+	border-radius: 20px;
+	transition: ease .3s;
+	width: 120px;
+	display: none;
+}
+.my-caption button:hover{
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border: solid #e11b22 3px;
+	background-color:#e11b22; 
+	border-radius: 20px;
+	display: none;
+}
+}
+.my-color{
+	color: #d63031;
+}
+
+.my-about{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.my-left{
+	width: 600px;
+	height: 400px;
+	border-radius: 30px;
+	background-image: url(images/4.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.my-right{
+	width: 500px;
+	height: 300px;
+	border-radius: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-left: -150px;
+	background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(224,3,3,0.48503151260504207) 0%, rgba(221,3,3,1) 100%);
+	
+}
+.my-right h3{
+	font-weight: bolder;
+	color: white;
+}
+.my-right p{
+	color: white;
+}
+
+.my-right button{
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border: solid #e11b22 3px;
+	border-radius: 20px;
+	transition: ease .3s;
+	width: 120px;
+	background-color:#e11b22; 
+}
+.my-right button:hover{
+	color: #e11b22;
+	font-weight: bold;
+	padding: 5px;
+	border: solid #e11b22 3px;
+	background-color:white; 
+	border-radius: 20px;
+}
+
+.my-menu{
+	border-radius: 20px;
+	margin-top: 100px;
+	text-align: center;
+	color: grey;
+	padding-top: 50px;
+}
+
+.my-menu span{
+    color: #e11b22;
+	font-weight: bolder;
+	margin-top: 20px;
+}
+
+.my-main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.my-card
+{
+	width: 30%;
+	border-radius: 20px !important;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 10px grey;
+}
+.my-card img{
+	border-radius: 100%;
+	margin-top: -60px;
+	transition: ease .3s;
+}
+
+.my-card img:hover{
+	border-radius: 100%;
+	margin-top: -60px;
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+}
+.my-card span{
+	color: #e11b22;
+}
+
+.my-card2
+{
+	width: 30%;
+	border-radius: 20px !important;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	box-shadow: 0px 0px 10px grey;
+	z-index: 1;
+}
+.my-card2 img{
+	border-radius: 100%;
+	margin-top: -60px;
+	transition: ease .3s;
+}
+.my-card2 img:hover{
+	border-radius: 100%;
+	margin-top: -60px;
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+}
+.my-card2 span{
+	color: #e11b22;
+}
+
+.hr2 {
+	width: 90%;
+	padding-top: -50px;
+	background-color: #e11b22 ;
+}
+.hr1 {
+	width: 90%;
+	margin-top: 40px;
+	background-color: #e11b22 ;
+}
+.my-rating{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	
+}
+.my-footer{
+	height: auto;
+	background-image: url(images/footer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	bottom: 0px;
+}
+.my-footer h3{
+	color: #e11b22 ;
+	margin-bottom: 30px;
+}
+.my-footer input {
+	width: 200px;
+	border: solid #e11b22 2px;
+	border-radius: 10px;
+}
+.my-footer-button{
+	color: white;
+	padding-bottom: 3px;
+	border: solid #e11b22 3px;
+	border-radius: 10px;
+	transition: ease .3s;
+	width: 120px;
+	background-color:#e11b22; 
+	margin-top: 10px;
+}
